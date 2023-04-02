@@ -1,0 +1,39 @@
+.nav {
+  background-color: #246660;
+  display: flex;
+  padding: 2rem;
+  border-bottom: 2px solid #fff;
+  align-items: center;
+
+  .link-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    h1 {
+      color: #f0f0f0;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      display: flex;
+      border-radius: 0.2rem;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+
+      &:hover {
+        opacity: 90%;
+      }
+
+      a {
+        color: #fff;
+        &:hover {
+          opacity: 90%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d7a74;
+    padding: 8rem 4rem 8rem 4rem;
+    gap: 6px;
+
+    h1 {
+      margin-bottom: 3rem;
+      color: #fff;
+    }
+    .input-container {
+      display: flex;
+      width: 18.5rem;
+      justify-content: space-between;
+      input {
+        color: #2d7a74;
+      }
+      span {
+        color: #fff;
+      }
+      .input-file {
+        display: none;
+      }
+      label {
+        width: 9.9rem;
+        background-color: #fff;
+        font-size: 0.9rem;
+        text-align: center;
+        color: #2d7a74;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    button {
+      margin-top: 3rem;
+    }
+  }
+  .client-error {
+    color: red;
+  }
+}
+
+p,
+span {
+  font-weight: 600;
+  color: #fff;
+}

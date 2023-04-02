@@ -1,0 +1,59 @@
+form {
+  display: flex;
+  justify-content: center;
+
+  .formGroup {
+    background-color: #246660;
+    border-radius: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+
+    h1 {
+      margin: 3rem;
+      color: #fff;
+      text-align: center;
+    }
+    .inputContainer {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.8rem;
+
+      .date-hour-group {
+        display: flex;
+        max-width: 158px;
+
+        .date {
+          width: 100%;
+        }
+      }
+      .services {
+        width: 10rem;
+      }
+
+      label {
+        color: #fff;
+      }
+      input {
+        color: #246660;
+
+        &:-webkit-autofill,
+        &:autofill {
+          background-color: #fff;
+          color: #246660;
+        }
+        &::-webkit-calendar-picker-indicator {
+          background-color: #246660;
+          border-radius: 6px;
+        }
+      }
+    }
+    button {
+      margin-top: 2rem;
+
+      align-self: center;
+    }
+  }
+}
